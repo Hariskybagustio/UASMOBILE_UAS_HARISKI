@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+
+    app:startDestination="@id/movieFragment">
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.arizki_uas.uas_arizki.fragment.movie.MovieFragment1"
+        android:label="Tv Show Fragment"
+        tools:layout="@layout/fragment_movie1" />
+    <fragment
+        android:id="@+id/detail"
+        android:name="com.arizki_uas.uas_arizki.fragment.movie.MovieFragment"
+        android:label="The List Movie"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/Profile"
+        android:name="com.arizki_uas.uas_arizki.fragment.movie.FavoriteFragment"
+        android:label="Profile Akun"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>
